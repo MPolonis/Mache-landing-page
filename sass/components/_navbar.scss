@@ -1,3 +1,124 @@
-.logo-mache {
-    height: 3000px;
+.menu-on-normal-screens {
+    background-image: url(../images/background.png);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
 }
+
+.navbar {
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+.navbar-background {
+   
+}
+
+.nav-top {
+    margin: 0;
+    padding-top: 44px;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 230px;
+    li {
+        position: relative;
+        a {
+            display: inline-block;
+            padding: 0 20px;
+            font-size: 16x;
+            color: #fff;
+            line-height: 38px;
+            font-family: "Lato";
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            &:hover {
+                color: #ed145b;
+            }
+        }
+        &:first-child {
+            position: absolute;
+            left: 300px;
+        }
+    }
+}
+
+// .menu-on-normal-screens,
+// .menu-bar-mobile {
+//     background-image: url(../images/background-image.png);
+//     height: 800px;
+//     background-size: cover;
+//     background-position: center;
+// }
+// .navbar {
+//     top: 0;
+//     right: 0;
+//     height: 100px;
+//     width: 100%;
+//     background-color: #000;
+//     position: relative;
+//     .welcome-tele {
+//         position: absolute;
+//         top: 768px;
+//         right: 85px;
+//         border-radius: 50%;
+//         width: 65px;
+//         height: 65px;
+//         outline: none;
+//         border: none;
+//         cursor: pointer;
+// }
+// }
+
+// .nav-top {
+//     height: 100px;
+//     margin: 0;
+//     padding: 0;
+//     list-style-type: none;
+//     display: flex;
+//     justify-content: flex-end;
+//     padding-right: 245px;
+//     align-items: center;
+//     li {
+//         position: relative;
+//         a {
+//             display: inline-block;
+//             padding: 0 20px;
+//             font-size: 14px;
+//             color: white;
+//             text-align: center;
+//             text-decoration: none;
+//             text-transform: uppercase;
+//             cursor: pointer;
+//         }
+//         &::before {
+//             content: "";
+//                 height: 5px;
+//                 width: 100%;
+                
+//                 visibility: hidden;
+//                 position: absolute;
+//                 bottom: -40px;
+//         }
+//         &:hover {
+//             &::before {
+//                 visibility: visible;
+//             }
+//         }
+//         &:hover:first-child::before {
+//             visibility: hidden;
+//         }
+//         &:first-child {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             padding-right: 253px;
+//         }
+//     }
+// }
+

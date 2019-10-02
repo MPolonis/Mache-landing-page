@@ -1,4 +1,52 @@
-.logo-mache {
-  height: 3000px;
+.menu-on-normal-screens {
+  background-image: url(../images/background.png);
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  top: 0;
+  right: 0;
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.nav-top {
+  margin: 0;
+  padding-top: 44px;
+  list-style-type: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  padding-right: 230px;
+}
+
+.nav-top li {
+  position: relative;
+}
+
+.nav-top li a {
+  display: inline-block;
+  padding: 0 20px;
+  font-size: 16x;
+  color: #fff;
+  line-height: 38px;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-top li a:hover {
+  color: #ed145b;
+}
+
+.nav-top li:first-child {
+  position: absolute;
+  left: 300px;
 }
 /*# sourceMappingURL=style.css.map */
