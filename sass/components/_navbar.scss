@@ -31,9 +31,9 @@
             display: inline-block;
             padding: 0 20px;
             font-size: 16x;
-            color: #fff;
+            color: $white-color;
             line-height: 38px;
-            font-family: "Lato";
+            font-family: $page-font;
             font-weight: 700;
             text-align: center;
             text-decoration: none;
@@ -53,8 +53,8 @@
     font-size: 46px;
     letter-spacing: 1px;
     line-height: 24px;
-    color: #fff;
-    font-family: "Lato";
+    color: $white-color;
+    font-family: $page-font;
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
@@ -63,7 +63,7 @@
         content: "";
             height: 3px;
             width: 201px;
-            background-color: #ed145b;
+            background-color: $buttons-nav-color;
             visibility: visible;
             position: absolute;
             bottom: -68px;
@@ -74,10 +74,10 @@
 }
 
 .second-line-header {
-    color: #fff;
+    color: $white-color;
     font-size: 22px;
     line-height: 38px;
-    font-family: "Lato";
+    font-family: $page-font;
     font-weight: 300;
     text-align: center;
     padding-top: 41px;
