@@ -343,6 +343,10 @@ template {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #f4f4f4;
+}
+
 .row {
   display: -ms-flexbox;
   display: flex;
@@ -806,5 +810,50 @@ template {
   width: 110%;
   background: #ed145b;
   height: 40px;
+}
+
+.about {
+  background-color: #f4f4f4;
+  color: #5a5a5a;
+  font-family: "Lato", sans-serif;
+}
+
+.about-header {
+  padding-top: 150px;
+  font-size: 38px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+}
+
+.about-paragraph {
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.about-paragraph::before {
+  display: block;
+  content: "";
+  border-top: 2px solid #ed145b;
+  width: 200px;
+  padding-bottom: 45px;
+  transform: translateY(15px);
+  padding-bottom: 45px;
+}
+
+.video {
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ed145b;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.icon-play {
+  width: 28px;
+  height: 28px;
 }
 /*# sourceMappingURL=style.css.map */
