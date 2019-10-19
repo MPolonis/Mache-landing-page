@@ -1,8 +1,9 @@
 
 .about {
     background-color: #f4f4f4;
-    color: #5a5a5a;
+    color: $font-color;
     font-family: $page-font;
+    height: 611px;
 }
 
 .about-header {
@@ -20,12 +21,12 @@
     font-weight: 300;
     &::before {
         display: block;
-    content: "";
-    border-top:2px solid $buttons-nav-color;
-    width: 200px;
-    padding-bottom: 45px;
-    transform: translateY(15px);
-    padding-bottom: 45px;
+        content: "";
+        border-top:2px solid $buttons-nav-color;
+        width: 200px;
+        padding-bottom: 45px;
+        transform: translateY(15px);
+        padding-bottom: 45px;
     }
 }
 
@@ -36,9 +37,17 @@
     color: $buttons-nav-color;
     font-weight: 400;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
-.icon-play {
-    width: 28px;
-    height: 28px;
+.play-icon {
+    font-size: 28px;
+    padding-left: 11px;
+    line-height: 50%;
+    position: relative;
+    top: 4px;
+}
+
+.computer {
+    padding-top: 100px;
 }

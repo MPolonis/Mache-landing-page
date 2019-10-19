@@ -816,6 +816,7 @@ body {
   background-color: #f4f4f4;
   color: #5a5a5a;
   font-family: "Lato", sans-serif;
+  height: 611px;
 }
 
 .about-header {
@@ -850,10 +851,60 @@ body {
   color: #ed145b;
   font-weight: 400;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-.icon-play {
-  width: 28px;
-  height: 28px;
+.play-icon {
+  font-size: 28px;
+  padding-left: 11px;
+  line-height: 50%;
+  position: relative;
+  top: 4px;
+}
+
+.computer {
+  padding-top: 100px;
+}
+
+.services {
+  background-color: #fff;
+}
+
+.services-slogan {
+  padding-top: 153px;
+  color: #5a5a5a;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.first-line-slogan {
+  font-size: 38px;
+  line-height: 58px;
+  font-style: italic;
+  letter-spacing: 1px;
+  position: relative;
+  padding-bottom: 62px;
+  margin-bottom: 0;
+}
+
+.first-line-slogan::before {
+  content: "";
+  height: 3px;
+  width: 201px;
+  background-color: #ed145b;
+  visibility: visible;
+  position: absolute;
+  bottom: 13px;
+  left: 50%;
+  transform: translate(-50%, -25px);
+}
+
+.second-line-slogan {
+  width: 691px;
+  font-size: 15px;
+  line-height: 30px;
+  margin: 0 auto;
+  letter-spacing: 0px;
 }
 /*# sourceMappingURL=style.css.map */
