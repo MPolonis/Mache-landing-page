@@ -1,0 +1,25 @@
+.quote {
+    background-image: url(../images/background02.png);
+    height: 501px;
+    background-size: cover;
+    background-position: center;
+}
+
+.quotation-all {
+    text-align: center;
+    padding-top: 98px;
+}
+
+.quote-content {
+    width: 1140px;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    color: $white-color;
+    font-family: $page-font;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px;
+}

@@ -868,6 +868,8 @@ body {
 
 .services {
   background-color: #fff;
+  padding: 0 170px 60px 170px;
+  height: 704px;
 }
 
 .services-slogan {
@@ -906,5 +908,65 @@ body {
   line-height: 30px;
   margin: 0 auto;
   letter-spacing: 0px;
+}
+
+.service-name {
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  color: #ed145b;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.icon-ring {
+  border-radius: 50%;
+  width: 131px;
+  height: 131px;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin: 0 auto;
+}
+
+.all-services {
+  padding-top: 93px;
+}
+
+.particular-service h1 {
+  padding-top: 34px;
+  margin: 0;
+}
+
+.quote {
+  background-image: url(../images/background02.png);
+  height: 501px;
+  background-size: cover;
+  background-position: center;
+}
+
+.quotation-all {
+  text-align: center;
+  padding-top: 98px;
+}
+
+.quote-content {
+  width: 1140px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 40px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px;
 }
 /*# sourceMappingURL=style.css.map */
