@@ -15,5 +15,25 @@
     text-transform: uppercase;
     display: block;
     margin: 0 auto;
+    &:hover {
+        background-color: $white-color;
+        color: $buttons-nav-color;
+    }
 }
+
+.btn-price {
+    background-color: #f4f4f4;
+    color: #5a5a5a;
+    outline: none;
+    &:hover {
+        background-color: #f4f4f4;
+        color: #5a5a5a;
+        cursor: default;
+    }
+}
+
+.btn-buy {
+    margin-bottom: 36px;
+}
+
 

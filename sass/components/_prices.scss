@@ -1,0 +1,75 @@
+
+.price-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 91px;
+}
+
+.price-month {
+    height: 150px;
+    background-color: #5a5a5a;
+    position: relative;
+    .btn-price {
+        position: absolute;
+        top: 124px;
+        left: 31.5px;
+    }
+}
+
+.price-product {
+    margin: 0 15px 137px;
+    width: 263px;
+    height: auto;
+    background-color: $white-color;
+    font-family: $page-font;
+    font-weight: 400;
+    text-align: center;
+    color: #242424;
+    &:hover {
+        .price-month {
+            background-color: $buttons-nav-color;
+        }
+    }
+    h1 {
+        font-size: 50px;
+        letter-spacing: 1px;
+        color: #f4f4f4;
+        font-family: $page-font;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+        padding-top: 18px
+    }
+    .dollar-price {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #f4f4f4;
+        font-family: $page-font;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+
+    }
+    p {
+        font-size: 15px;
+        letter-spacing: 0px;
+        color: #5a5a5a;
+        font-family: $page-font;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 23px;
+        margin: 0;
+    }
+    .project-price {
+        padding-top: 62px;
+    }
+}
+
+.password-price {
+    padding-bottom: 37px;
+}
+
