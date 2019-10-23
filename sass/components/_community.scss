@@ -1,0 +1,26 @@
+
+.community {
+    background-color: $buttons-nav-color;
+    height: 201px;
+    display: flex;
+}
+
+.community-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.community-header {
+    font-size: 38px;
+    letter-spacing: 1px;
+    color: $white-color;
+    font-family: $page-font;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: inline;
+}

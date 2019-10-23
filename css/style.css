@@ -726,6 +726,13 @@ body {
   margin-bottom: 36px;
 }
 
+.btn-community {
+  background-color: #fff;
+  color: #ed145b;
+  display: inline-block;
+  margin: 0;
+}
+
 .headline-all {
   padding-top: 157px;
   color: #5a5a5a;
@@ -1071,5 +1078,86 @@ body {
 
 .password-price {
   padding-bottom: 37px;
+}
+
+.features {
+  background-color: #fff;
+}
+
+.all-features {
+  margin: 0 300px;
+  padding-top: 150px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.feature-label {
+  display: inline-block;
+  padding-left: 26px;
+}
+
+.feature-name {
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #ed145b;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  position: relative;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.feature-sub {
+  width: 286px;
+  height: 89px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  color: #5a5a5a;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+  padding-right: 44px;
+}
+
+.first-row-sub {
+  margin-bottom: 87px;
+}
+
+.second-row-sub {
+  margin-bottom: 134px;
+}
+
+.community {
+  background-color: #ed145b;
+  height: 201px;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.community-all {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.community-header {
+  font-size: 38px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  display: inline;
 }
 /*# sourceMappingURL=style.css.map */
