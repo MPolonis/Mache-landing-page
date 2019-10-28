@@ -1172,6 +1172,10 @@ body {
   margin: 14px;
 }
 
+.headline-update {
+  padding-bottom: 97px;
+}
+
 .updates-gallery-all {
   margin: 37px 80px;
   display: -ms-flexbox;
@@ -1193,6 +1197,7 @@ body {
 
 .hvr-box .hvr-bottom {
   display: block;
+  position: relative;
 }
 
 .hvr-box .hvr-top {
@@ -1211,6 +1216,7 @@ body {
 .hvr-box:hover .hvr-top {
   display: block;
   cursor: pointer;
+  z-index: 999;
 }
 
 .hvr-discription {
@@ -1237,6 +1243,8 @@ body {
       justify-content: center;
   -ms-flex-align: center;
       align-items: center;
+  display: inline;
+  padding: 102px;
 }
 
 .update-sub-headline {
@@ -1261,5 +1269,55 @@ body {
   font-weight: 300;
   padding-left: 22px;
   padding-bottom: 25px;
+}
+
+.transform-update {
+  overflow: hidden;
+}
+
+.transform-update .trasform-element-update {
+  position: absolute;
+  transform-origin: -10% 90%;
+  transform: rotate(1.4deg);
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background: #ed145b;
+  height: 12px;
+  bottom: 140px;
+  overflow: hidden;
+}
+
+.project-gallery {
+  -webkit-clip-path: polygon(0 0, 0 239px, 360px 247px, 360px 0);
+          clip-path: polygon(0 0, 0 239px, 360px 247px, 360px 0);
+}
+
+.project-gallery:hover {
+  -webkit-clip-path: polygon(0 0, 0 360px, 360px 250px, 360px 0);
+          clip-path: polygon(0 0, 0 360px, 360px 250px, 360px 0);
+}
+
+.pic-background-update {
+  background-color: #ed145b;
+}
+
+.more-update-all {
+  text-align: center;
+  margin-top: 116px;
+  padding-bottom: 58px;
+}
+
+.text-more {
+  font-size: 15px;
+  color: #ed145b;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.text-more:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

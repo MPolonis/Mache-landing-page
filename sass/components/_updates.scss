@@ -9,6 +9,10 @@
     margin: 14px;
 }
 
+.headline-update {
+    padding-bottom: 97px;
+}
+
 .updates-gallery-all {
     margin: 37px 80px;
     display: flex;
@@ -25,7 +29,8 @@
     display: inline-block;
 }
 .hvr-box .hvr-bottom {
-	display: block;
+    display: block;
+    position: relative;
 }
 .hvr-box .hvr-top {
     background: $buttons-nav-color;
@@ -42,7 +47,8 @@
 
 .hvr-box:hover .hvr-top {
 	display: block;
-	cursor: pointer;
+    cursor: pointer;
+    z-index: 999;
 }
 
 .hvr-discription {
@@ -64,6 +70,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    display: inline;
+    padding: 102px;
 }
 
 .update-sub-headline {
@@ -90,3 +98,47 @@
     padding-bottom: 25px;
 }
 
+.transform-update {
+    overflow: hidden;
+    .trasform-element-update {
+        position: absolute;
+        transform-origin: -10% 90%;
+        transform: rotate(1.4deg);
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        background: $buttons-nav-color;
+        height: 12px;
+        bottom: 140px;
+        overflow: hidden;
+    }
+}
+
+.project-gallery {
+  clip-path: polygon(0 0, 0 239px, 360px 247px, 360px 0);
+  &:hover {
+      clip-path: polygon(0 0, 0 360px, 360px 250px, 360px 0);
+  }
+}
+
+.pic-background-update {
+    background-color: $buttons-nav-color;
+}
+
+.more-update-all {
+    text-align: center;
+    margin-top: 116px;
+    padding-bottom: 58px;
+}
+
+.text-more {
+    font-size: 15px;
+    color: $buttons-nav-color;
+    font-family: $page-font;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    &:hover {
+        cursor: pointer;
+    }
+}
