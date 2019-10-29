@@ -1,0 +1,41 @@
+.download {
+    font-family: $page-font;
+}
+
+.screen-pic {
+    padding-top: 115px;
+    padding-bottom: 78px;
+    padding-left: 100px;
+}
+
+.download-header {
+    font-size: 38px;
+    color: #5a5a5a;
+    font-weight: 300;
+    font-style: italic;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: 1px;
+    line-height: 52px;
+    padding-top: 100px;
+    &::before {
+        display: block;
+        content: "";
+        border-top:2px solid $buttons-nav-color;
+        width: 200px;
+        padding-bottom: 45px;
+        transform: translateY(174px);
+        padding-bottom: 45px;
+    }
+}
+
+.download-sub {
+    padding-top: 45px;
+    width: 469px;
+    height: 183px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #5a5a5a;
+    font-weight: 300;
+}
