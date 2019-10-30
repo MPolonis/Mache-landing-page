@@ -1398,4 +1398,37 @@ body {
   color: #5a5a5a;
   font-weight: 300;
 }
+
+.footer {
+  width: 100%;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.copyright {
+  font-size: 15px;
+}
+
+.design-footer {
+  font-size: 16px;
+}
+
+.copyright,
+.design-footer {
+  text-align: center;
+  margin: 0;
+  padding-top: 65px;
+  padding-bottom: 69px;
+}
+
+.symu-footer {
+  font-weight: 700;
+}
+
+.dot-footer {
+  color: #ed145b;
+}
 /*# sourceMappingURL=style.css.map */
