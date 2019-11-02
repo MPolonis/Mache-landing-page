@@ -35,3 +35,12 @@
     padding-top: 34px;
     margin: 0;
 }
+
+@media(max-width: 992px) {
+    .services {
+        padding: 0 30px 60px 30px;
+    }
+    .headline-all {
+        padding-top: 100px;
+    }
+}

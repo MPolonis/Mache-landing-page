@@ -777,6 +777,16 @@ body {
   letter-spacing: 0px;
 }
 
+@media (max-width: 992px) {
+  .headline-all {
+    padding-top: 100px;
+  }
+  .second-line-headline {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+
 .menu-on-normal-screens {
   background-image: url(../images/background.png);
   height: 800px;
@@ -938,6 +948,95 @@ body {
   padding-top: 100px;
 }
 
+@media (max-width: 992px) {
+  .about {
+    height: 720px;
+  }
+  .about-header {
+    text-align: center;
+    padding-top: 75px;
+  }
+  .video {
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .computer {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 350px;
+    width: 500px;
+  }
+  .about-paragraph {
+    padding: 0 50px;
+  }
+  .about-paragraph::before {
+    margin: 0 auto;
+  }
+  .about-bigger-screens {
+    display: none;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+  .about {
+    height: 700px;
+  }
+  .about-bigger-screens {
+    display: none;
+  }
+  .about-header {
+    text-align: center;
+    padding-top: 75px;
+  }
+  .video {
+    margin: 0 auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  .computer {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 500px;
+    width: 700px;
+  }
+  .about-paragraph {
+    padding: 0 150px;
+  }
+  .about-paragraph::before {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1700px) {
+  .about {
+    height: 700px;
+  }
+  .computer {
+    height: 600px;
+    width: 700px;
+    padding-top: 200px;
+    padding-left: 50px;
+  }
+  .about-smaller-screens {
+    display: none;
+  }
+}
+
+@media (min-width: 1701px) {
+  .about-smaller-screens {
+    display: none;
+  }
+}
+
 .services {
   background-color: #fff;
   padding: 0 170px 60px 170px;
@@ -976,6 +1075,15 @@ body {
 .particular-service h1 {
   padding-top: 34px;
   margin: 0;
+}
+
+@media (max-width: 992px) {
+  .services {
+    padding: 0 30px 60px 30px;
+  }
+  .headline-all {
+    padding-top: 100px;
+  }
 }
 
 .quote {

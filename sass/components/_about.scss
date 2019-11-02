@@ -51,3 +51,127 @@
 .computer {
     padding-top: 100px;
 }
+
+@media(max-width: 992px) {
+    .about {
+        height: 720px;
+    }
+
+    .about-header {
+        text-align: center;
+        padding-top: 75px;
+    }
+
+    .video {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .computer {
+        display: flex;
+        margin: 0 auto;
+        padding-top: 50px;
+        height: 350px;
+        width: 500px;
+    }
+
+    .about-paragraph {
+        padding: 0 50px;
+        &::before {
+            margin: 0 auto;
+        }
+    }
+
+    .about-bigger-screens {
+        display: none;
+    }
+}
+
+@media(min-width: 993px) and (max-width: 1300px) {
+    .about {
+        height: 700px;
+    }
+
+    .about-bigger-screens {
+        display: none;
+    }
+
+    .about-header {
+        text-align: center;
+        padding-top: 75px;
+    }
+
+    .video {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .computer {
+        display: flex;
+        margin: 0 auto;
+        padding-top: 50px;
+        height: 500px;
+        width: 700px;
+    }
+
+    .about-paragraph {
+        padding: 0 150px;
+        &::before {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media(min-width: 1301px) and (max-width: 1700px) {
+    .about {
+        height: 700px;
+    }
+
+    // .about-bigger-screens {
+    //     display: none;
+    // }
+
+    // .about-header {
+    //     text-align: center;
+    //     padding-top: 75px;
+    // }
+
+    // .video {
+    //     margin: 0 auto;
+    //     display: flex;
+    //     justify-content: center;
+    // }
+
+    // .computer {
+    //     display: flex;
+    //     margin: 0 auto;
+    //     padding-top: 50px;
+    //     height: 500px;
+    //     width: 700px;
+    // }
+
+    // .about-paragraph {
+    //     padding: 0 150px;
+    //     &::before {
+    //         margin: 0 auto;
+    //     }
+    // }
+    .computer {
+        height: 600px;
+        width: 700px;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+
+    .about-smaller-screens {
+        display: none;
+    }
+}
+
+@media(min-width: 1701px) {
+    .about-smaller-screens {
+        display: none;
+    }
+}
