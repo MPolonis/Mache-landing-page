@@ -23,3 +23,31 @@
     margin: 0 auto;
     padding: 50px;
 }
+
+@media(max-width: 500px) {
+    .quote {
+        height: 700px;
+    }
+}
+
+@media(max-width: 992px) {
+    .quotation-all {
+        padding-top: 40px;
+    }
+
+    .quote-content {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 60px;
+        line-height: 30px;
+        font-size: 20px;
+
+    }
+}
+
+@media(min-width: 993px) and (max-width: 1170px) {
+    .quote-content {
+        width: 100%;
+        padding: auto 60px;
+    }
+}

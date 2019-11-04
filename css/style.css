@@ -779,7 +779,7 @@ body {
 
 @media (max-width: 992px) {
   .headline-all {
-    padding-top: 100px;
+    padding-top: 50px;
   }
   .second-line-headline {
     width: 100%;
@@ -1077,12 +1077,25 @@ body {
   margin: 0;
 }
 
+@media (max-width: 768px) {
+  .services {
+    height: 1305px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .services {
+    height: 800px;
+  }
+}
+
 @media (max-width: 992px) {
   .services {
     padding: 0 30px 60px 30px;
   }
-  .headline-all {
-    padding-top: 100px;
+  .particular-service h1 {
+    padding-top: 15px;
+    padding-bottom: 34px;
   }
 }
 
@@ -1110,6 +1123,32 @@ body {
   text-align: center;
   margin: 0 auto;
   padding: 50px;
+}
+
+@media (max-width: 500px) {
+  .quote {
+    height: 700px;
+  }
+}
+
+@media (max-width: 992px) {
+  .quotation-all {
+    padding-top: 40px;
+  }
+  .quote-content {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 30px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1170px) {
+  .quote-content {
+    width: 100%;
+    padding: auto 60px;
+  }
 }
 
 .price-all {
@@ -1193,6 +1232,15 @@ body {
   padding-bottom: 37px;
 }
 
+@media (max-width: 768px) {
+  .price-all {
+    padding-top: 50px;
+  }
+  .price-product {
+    margin-bottom: 30px;
+  }
+}
+
 .features {
   background-color: #fff;
 }
@@ -1242,6 +1290,23 @@ body {
 
 .second-row-sub {
   margin-bottom: 134px;
+}
+
+@media (max-width: 768px) {
+  .all-features {
+    padding-top: 50px;
+  }
+  .icon-feature {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .feature-label {
+    padding: 0;
+    text-align: center;
+  }
+  .feature-sub {
+    padding: 0;
+  }
 }
 
 .community {

@@ -46,3 +46,22 @@
     margin-bottom: 134px;
 }
 
+@media(max-width: 768px) {
+    .all-features {
+        padding-top: 50px;
+    }
+
+    .icon-feature {
+        text-align: center;     
+        padding-bottom: 30px;   
+    }
+
+    .feature-label {
+        padding: 0;
+        text-align: center;
+    }
+
+    .feature-sub {
+        padding: 0;
+    }
+}

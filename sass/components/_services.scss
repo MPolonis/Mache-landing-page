@@ -36,11 +36,26 @@
     margin: 0;
 }
 
+@media(max-width: 768px) {
+    .services {
+        height: 1305px;
+    }
+}
+
+@media(min-width: 769px) and (max-width: 991px) {
+    .services {
+        height: 800px;
+    }
+}
+
 @media(max-width: 992px) {
     .services {
         padding: 0 30px 60px 30px;
     }
-    .headline-all {
-        padding-top: 100px;
+
+    .particular-service h1 {
+        padding-top: 15px;
+        padding-bottom: 34px;
     }
+
 }
