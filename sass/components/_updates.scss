@@ -2,7 +2,7 @@
     background-color: $white-color;
 }
 
-.particula-update {
+.particular-update {
     height: 391px;
     width: 361px;
     background-color: #f4f4f4; 
@@ -140,5 +140,26 @@
     margin: 0;
     &:hover {
         cursor: pointer;
+    }
+}
+
+@media(max-width: 450px) {
+    .particular-update {
+        height: 391px;
+        width: 261px;
+        margin: 14px auto;
+    }
+
+    .project-gallery {
+        width: 100%;
+        clip-path: polygon(0 0, 0 171px, 360px 181px, 360px 0);
+    }
+
+    .hvr-box .hvr-top  {
+        height: 182px;
+    }
+
+    .icon-zoom {
+        padding: 69px;
     }
 }

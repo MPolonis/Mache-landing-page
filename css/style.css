@@ -738,6 +738,13 @@ body {
   margin-top: 76px;
 }
 
+@media (max-width: 1100px) {
+  .btn-community {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .headline-all {
   padding-top: 157px;
   color: #5a5a5a;
@@ -1295,6 +1302,7 @@ body {
 @media (max-width: 768px) {
   .all-features {
     padding-top: 50px;
+    margin: 0 auto;
   }
   .icon-feature {
     text-align: center;
@@ -1306,6 +1314,8 @@ body {
   }
   .feature-sub {
     padding: 0;
+    text-align: center;
+    margin: 0 auto 40px auto;
   }
 }
 
@@ -1339,11 +1349,29 @@ body {
   display: inline;
 }
 
+@media (max-width: 500px) {
+  .community {
+    height: 250px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .community-header {
+    font-size: 25px;
+    display: block;
+    padding-bottom: 20px;
+  }
+  .community-all {
+    display: block;
+    padding-top: 50px;
+  }
+}
+
 .updates {
   background-color: #fff;
 }
 
-.particula-update {
+.particular-update {
   height: 391px;
   width: 361px;
   background-color: #f4f4f4;
@@ -1497,6 +1525,25 @@ body {
 
 .text-more:hover {
   cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .particular-update {
+    height: 391px;
+    width: 261px;
+    margin: 14px auto;
+  }
+  .project-gallery {
+    width: 100%;
+    -webkit-clip-path: polygon(0 0, 0 171px, 360px 181px, 360px 0);
+            clip-path: polygon(0 0, 0 171px, 360px 181px, 360px 0);
+  }
+  .hvr-box .hvr-top {
+    height: 182px;
+  }
+  .icon-zoom {
+    padding: 69px;
+  }
 }
 
 .template {

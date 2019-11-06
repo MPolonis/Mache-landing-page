@@ -49,6 +49,7 @@
 @media(max-width: 768px) {
     .all-features {
         padding-top: 50px;
+        margin: 0 auto;
     }
 
     .icon-feature {
@@ -63,5 +64,7 @@
 
     .feature-sub {
         padding: 0;
+        text-align: center;
+        margin: 0 auto 40px auto;
     }
 }
