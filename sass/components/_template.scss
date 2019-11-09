@@ -27,3 +27,16 @@
     padding-bottom: 56px;
     display: inline-block;
 }
+
+@media(max-width: 768px) {
+    .template-sub {
+        width: 100%;
+        padding: 50px 30px;
+        margin: 0 auto;
+    }
+
+    .first-template-header {
+        padding-top: 30px;
+        line-height: 41px;
+    }
+}

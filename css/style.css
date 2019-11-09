@@ -745,6 +745,12 @@ body {
   }
 }
 
+@media (max-width: 1700px) {
+  .btn-download {
+    margin-bottom: 50px;
+  }
+}
+
 .headline-all {
   padding-top: 157px;
   color: #5a5a5a;
@@ -1576,6 +1582,18 @@ body {
   display: inline-block;
 }
 
+@media (max-width: 768px) {
+  .template-sub {
+    width: 100%;
+    padding: 50px 30px;
+    margin: 0 auto;
+  }
+  .first-template-header {
+    padding-top: 30px;
+    line-height: 41px;
+  }
+}
+
 .download {
   font-family: "Lato", sans-serif;
 }
@@ -1617,6 +1635,39 @@ body {
   line-height: 30px;
   color: #5a5a5a;
   font-weight: 300;
+}
+
+@media (max-width: 991px) {
+  .screen-pic {
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1260px) {
+  .screen-pic {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    width: 480px;
+  }
+  .download-header {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1261px) and (max-width: 1700px) {
+  .screen-pic {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    width: 600px;
+  }
+  .download-header {
+    padding: 0;
+  }
 }
 
 .footer {
