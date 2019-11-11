@@ -766,6 +766,8 @@ body {
   letter-spacing: 1px;
   position: relative;
   padding-bottom: 62px;
+  padding-left: 20px;
+  padding-right: 20px;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -797,6 +799,9 @@ body {
   .second-line-headline {
     width: 100%;
     padding: 0 30px;
+  }
+  .first-line-headline {
+    font-size: 30px;
   }
 }
 
@@ -963,7 +968,7 @@ body {
 
 @media (max-width: 992px) {
   .about {
-    height: 720px;
+    height: 900px;
   }
   .about-header {
     text-align: center;
@@ -1026,6 +1031,14 @@ body {
   }
   .about-paragraph::before {
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 635px) {
+  .computer {
+    padding-top: 20px;
+    width: 300px;
+    height: 200px;
   }
 }
 
@@ -1550,6 +1563,9 @@ body {
   .icon-zoom {
     padding: 69px;
   }
+  .update-sub-content {
+    width: 275px;
+  }
 }
 
 .template {
@@ -1644,6 +1660,29 @@ body {
     margin: 0 auto;
     padding: 50px 0;
   }
+  .download-all-big-screens {
+    display: none;
+  }
+  .download-all-small-screens {
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+  .download-header {
+    padding-top: 0;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 549px) {
+  .screen-pic {
+    width: 300px;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 900px) {
+  .screen-pic {
+    width: 500px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1260px) {
@@ -1653,12 +1692,18 @@ body {
     padding-left: 30px;
     width: 480px;
   }
+  .download-all-small-screens {
+    display: none;
+  }
   .download-header {
     padding: 0;
   }
+  .download-header::before {
+    transform: translateY(200px);
+  }
 }
 
-@media (min-width: 1261px) and (max-width: 1700px) {
+@media (min-width: 1261px) {
   .screen-pic {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -1667,6 +1712,9 @@ body {
   }
   .download-header {
     padding: 0;
+  }
+  .download-all-small-screens {
+    display: none;
   }
 }
 
@@ -1691,8 +1739,7 @@ body {
 .design-footer {
   text-align: center;
   margin: 0;
-  padding-top: 65px;
-  padding-bottom: 69px;
+  padding: 65px 20px 69px 20px;
 }
 
 .symu-footer {
